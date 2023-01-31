@@ -1,0 +1,42 @@
+body{ background-color:rgb(99, 93, 93); }
+#bestesongs{
+    background-color: gray;
+    color: black;
+}
+        #home{
+            background-color: darkgray;
+            color:black}
+        #info {
+            background-color: gray;
+            color:darkblue;}
+        #merch {
+            
+}
+    
+        img {
+            width: 29%;
+        }
+        section{
+            padding: 4%;
+        }
+        
+        nav li{
+            display: inline-block;
+        }
+        nav a{
+            display: block;
+            padding: 10px;
+            background-color: darkgray;
+            color: black;
+        }
+    li{display: inline-block; }
+    #beste songs {
+        background-color: blueviolet;
+    }
+   header{
+    background-image: url(fotos/ludwig_van_beethoven.png);
+    background-size: cover;
+    background-position: center;
+   text-align: center;
+   padding: 4em;
+}
