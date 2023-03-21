@@ -1,20 +1,43 @@
+*{
+    margin: 0;
+    padding: 0,
+}
 body {
-    background-color: purple
+    background-color: white
+}
+.flex-container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
 }
 header {
-    padding: 10px;
-    background-color: orange;
+    padding: 11px;
+    background-color: darkblue;
 }
 header input{
     padding: 5px;
     border-radius: 20px;
 
 }
+nav li{
+    display: inline-block; }
+nav a{
+    padding: 13px;
+    background-color: darkgray;
+    color: black;
+}
 
-.flex-container {
-    display:flex;
-    justify-content: space-between;
-    align-items: center ;
+::placeholder {
+    width: 233%;
 }
 
 header nav li {display: inline;}
