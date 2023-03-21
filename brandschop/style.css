@@ -18,4 +18,13 @@ header input{
 }
 
 header nav li {display: inline;}
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+}
+
+video {
+    width: 100%;
+}
     
