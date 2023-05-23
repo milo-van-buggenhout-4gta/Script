@@ -20,6 +20,14 @@ figcaption {
   position: absolute;
   bottom: 12%;
   left: 15%;
+  background-color: wheat;
+  padding: 7px 14px;
+  border-radius: 40%;
+}
+figcaption:hover{
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    cursor: pointer;
 }
 
 .flex-container {
@@ -96,7 +104,11 @@ header input {
 nav li {
     display: inline-block;
 }
-
+nav li:hover{
+  transform: scale(1.05);
+  filter: brightness(1.2);
+  cursor: pointer;
+}
 nav a {
     padding: 13px;
     background-color: darkgray;
@@ -119,4 +131,38 @@ header nav li {
 
 video {
     width: 100%;
+}
+footer {
+  padding: 5vw 10vw;
+  background-color:darkslateblue
+}
+
+footer .flex-container:first-child {
+  margin-bottom: 2rem;
+}
+
+footer ul li {
+  font-size: 0.8rem;
+  line-height: 2;
+  list-style-type: none;
+}
+
+footer ul li:first-child a {
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+footer ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+footer i {
+  margin-left: 1ch;
+  font-size: 1.6rem;
+}
+
+footer i:hover {
+  transform: scale(1.1);
 }
